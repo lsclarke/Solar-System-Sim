@@ -4,9 +4,7 @@ public class SolarSystem : MonoBehaviour
 {
 
     public readonly float G = 500f;
-
-    [SerializeField]
-    CelestialBody[] bodies;
+    public CelestialBody[] bodies;
 
     private void Start()
     {
@@ -16,8 +14,13 @@ public class SolarSystem : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Gravity();
-        
+        Gravity();       
+    }
+
+
+    public bool isGreater(CelestialBody body1, CelestialBody body2)
+    {
+        return body1.mass > body2.mass;
     }
 
     private void Gravity()
