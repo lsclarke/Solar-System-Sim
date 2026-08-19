@@ -8,7 +8,7 @@
 
 <h2 align="center" dir="auto"> Overview </h2>
 <h2 align="center" dir="auto"><strong>Genre: <code>Simulation</code></strong></h2>
-<p dir="auto">This is my unity project for the month of October for the theme of spooky/horror. Utilizing my skills in C# programming I decided to push myself out of my comfort zone mainly working on 2D platformers to create a unique 3D project of my own. I developed an enemy wave system and round system specifically for a survival game like this very much inspired by Call Of Duty BlackOps Zombies. In the near future it will be updated to be compatible with game controllers for more variety and inclusivity for those not fond of keyboard and mouse. When it comes to game development I always strive to include all players and their preferences! During the 3 weeks I worked on this project I developed and implemented player mechanics and game features to help players survive the undead hoard of low poly zombies. The meshes and assets you see are imported meshes from the unity asset store that I have applied my own code to. This is a first-person shooter to see how long you can survive!</p>
+<p dir="auto">This is a 3D simulation project I created in Unity. I wanted to create something that would actually be a bit more challenging for me and something out of the norm of what I usually work on in unity. This Solar System Simulator is simulating real-world gravitational physics using Unity's physics. Demonstrating Newton and Kepler’s Law in a 3D simulation.!</p>
 
 <br>
 
