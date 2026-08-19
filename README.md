@@ -8,7 +8,7 @@
 
 <h2 align="center" dir="auto"> Overview </h2>
 <h2 align="center" dir="auto"><strong>Genre: <code>Simulation</code></strong></h2>
-<p dir="auto">This is a 3D simulation project I created in Unity. I wanted to create something that would actually be a bit more challenging for me and something out of the norm of what I usually work on in unity. This Solar System Simulator is simulating real-world gravitational physics using Unity's physics. Demonstrating Newton and Kepler’s Law in a 3D simulation.!</p>
+<p dir="auto">This is a 3D simulation project I created in Unity. I wanted to create something that would actually be a bit more challenging for me and be a bit outside the norm of what I usually work on in Unity. This Solar System Simulator simulates real-world gravitational physics using Unity's physics. Demonstrating Newton and Kepler’s laws in a 3D simulation.</p>
 
 <br>
 
