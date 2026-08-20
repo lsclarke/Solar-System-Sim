@@ -3,7 +3,7 @@ using UnityEngine;
 public class SolarSystem : MonoBehaviour
 {
 
-    public readonly float G = 500f;
+    public readonly float G = 0f;
     public CelestialBody[] bodies;
 
     private void Start()
