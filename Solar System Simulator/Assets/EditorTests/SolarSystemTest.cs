@@ -3,23 +3,23 @@ using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
 
-public class EarthTest
+
+public class SolarSystemTest
 {
     // A Test behaves as an ordinary method
     [Test]
-    public void EarthTestSimplePasses()
+    public void ShouldShowTheGreaterMass()
     {
         // Use the Assert class to test conditions
-
     }
 
     // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
     // `yield return null;` to skip a frame.
     [UnityTest]
-    public IEnumerator EarthTestWithEnumeratorPasses()
+    public IEnumerator SolarSystemTestWithEnumeratorPasses()
     {
         // Use the Assert class to test conditions.
         // Use yield to skip a frame.
-        yield return null;
+        yield return new WaitForSeconds(1f);
     }
 }
