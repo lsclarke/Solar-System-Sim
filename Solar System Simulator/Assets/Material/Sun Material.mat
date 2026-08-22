@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Sun
+  m_Name: Sun Material
   m_Shader: {fileID: -6465566751694194690, guid: 9d9cf7f3ea6b5884a9e7a1238cc5ccb8, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -47,7 +47,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Contrast: 31.81
-    - _Fresnel_Strength: -3.15
+    - _Fresnel_Strength: -1.11
     - _Noise_Speed: -0.17
     - _QueueControl: 0
     - _QueueOffset: 0
