@@ -3,7 +3,7 @@
 
 
 <div class="Header Image">
-  <a align="center" draggable="false" href="https://www.youtube.com/watch?v=uzDSGSeMU78&t=4s"><img width="800" height="450" alt="Solar System Banner" src="https://github.com/user-attachments/assets/1529b52b-280f-4e2a-9fb7-5a68d92f5968" /></a>
+  <a align="center" draggable="false" href="https://www.youtube.com/watch?v=uzDSGSeMU78&t=4s"><img width="800" height="450" alt="Orbit Velocity Mass Fixed Mars and Jupiter Added" src="https://github.com/user-attachments/assets/34290e4b-f34b-4bca-ad1f-0c73c457e532" /></a>
 </div>
 
 <h2 align="center" dir="auto"> Overview </h2>
