@@ -47,7 +47,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Contrast: 31.81
-    - _Fresnel_Strength: -1.11
+    - _Fresnel_Strength: 0.46
     - _Noise_Speed: -0.17
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -55,7 +55,7 @@ Material:
     - _Speed: 0.8
     - _Twirl_Strength: 40.71
     m_Colors:
-    - _Star_Color: {r: 1.9766747, g: 0.22955883, b: 0.046619684, a: 1}
+    - _Star_Color: {r: 766.9963, g: 89.07423, b: 18.089535, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &5856221022179463913

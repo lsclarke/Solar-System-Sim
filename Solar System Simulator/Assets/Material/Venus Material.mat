@@ -81,7 +81,7 @@ Material:
     - _Cull: 0
     - _DstBlend: 0
     - _DstBlendAlpha: 0
-    - _Fresnel_Power: 14.9
+    - _Fresnel_Power: 15
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 0
@@ -93,7 +93,7 @@ Material:
     - _ZWrite: 1
     - _ZWriteControl: 0
     - _cloud_speed: 0.001
-    - _rotation_speed: 0.02
+    - _rotation_speed: 0.002
     m_Colors:
     - _Atmosphere_Color: {r: 2.996078, g: 1.2290179, b: 0, a: 1}
   m_BuildTextureStacks: []

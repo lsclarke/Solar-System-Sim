@@ -6,6 +6,7 @@ public class SolarSystem : MonoBehaviour
     public float G = 0f;
     public CelestialBody[] bodies;
 
+
     private void Start()
     {
         bodies = FindObjectsOfType<CelestialBody>();
@@ -39,6 +40,7 @@ public class SolarSystem : MonoBehaviour
                     float UniversalGravitation = (G * (m1 * m2) / (r * r));
 
                     body1.GetComponent<Rigidbody>().AddForce((body2.transform.position - body1.transform.position).normalized * UniversalGravitation);
+
                 }
 
             }
