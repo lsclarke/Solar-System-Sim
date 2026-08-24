@@ -10,10 +10,11 @@ public class Mercury : CelestialBody
     {
         GetComponent<Rigidbody>().mass = mass;
 
-        mass = 500f * (5.5f/earth.mass);
-
-        transform.localScale = new Vector3(mass, mass, mass);
+        //transform.localScale = new Vector3(mass, mass, mass);
         SayMyName();
     }
-
+    private void FixedUpdate()
+    {
+        GetComponent<Rigidbody>().mass = mass;
+    }
 }

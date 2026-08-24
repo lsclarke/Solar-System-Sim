@@ -3,8 +3,9 @@ using UnityEngine;
 public class SolarSystem : MonoBehaviour
 {
 
-    public readonly float G = 0f;
+    public float G = 0f;
     public CelestialBody[] bodies;
+
 
     private void Start()
     {
@@ -14,7 +15,7 @@ public class SolarSystem : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Gravity();       
+        Gravity();
     }
 
 
@@ -25,7 +26,8 @@ public class SolarSystem : MonoBehaviour
 
     private void Gravity()
     {
-        foreach (CelestialBody body1 in bodies) {
+        foreach (CelestialBody body1 in bodies)
+        {
             foreach (CelestialBody body2 in bodies)
             {
                 if (!body1.Equals(body2))
@@ -38,6 +40,7 @@ public class SolarSystem : MonoBehaviour
                     float UniversalGravitation = (G * (m1 * m2) / (r * r));
 
                     body1.GetComponent<Rigidbody>().AddForce((body2.transform.position - body1.transform.position).normalized * UniversalGravitation);
+
                 }
 
             }
