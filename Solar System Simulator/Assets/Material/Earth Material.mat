@@ -72,7 +72,7 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _Float: 2.42
-    - _Fresnel_Power: 24.7
+    - _Fresnel_Power: 18.34
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
@@ -87,7 +87,7 @@ Material:
     - _cloud_speed: 0.003
     - _rotation_speed: 0.005
     m_Colors:
-    - _Atmosphere_Color: {r: 0, g: 4.972233, b: 44.72704, a: 1}
+    - _Atmosphere_Color: {r: 0, g: 0.5799073, b: 5.216477, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &1485397271364579591

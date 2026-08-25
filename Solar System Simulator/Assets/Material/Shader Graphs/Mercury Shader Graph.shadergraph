@@ -743,10 +743,10 @@
     "m_PerRendererData": false,
     "m_customAttributes": [],
     "m_Value": {
-        "r": 0.0,
-        "g": 0.19785308837890626,
-        "b": 1.0,
-        "a": 1.0
+        "r": 0.6078431606292725,
+        "g": 0.6078431606292725,
+        "b": 0.6078431606292725,
+        "a": 0.16862745583057404
     },
     "isMainColor": false,
     "m_ColorMode": 1
@@ -898,7 +898,7 @@
     "m_Title": "Light Direction",
     "m_Position": {
         "x": -1508.0,
-        "y": 1516.9998779296875
+        "y": 1517.0
     }
 }
 
@@ -2997,8 +2997,8 @@
     "m_ObjectId": "864398f49dff4de2a8890844c57d407f",
     "m_Title": "Base Color Texture",
     "m_Position": {
-        "x": -1522.9998779296875,
-        "y": 333.99993896484377
+        "x": -1523.0,
+        "y": 334.0
     }
 }
 
@@ -3998,8 +3998,8 @@
     "m_ObjectId": "cbd727085c7d45898cee9ce276d5eecb",
     "m_Title": "Atmosphere (Fresnel Effect)",
     "m_Position": {
-        "x": -1608.9998779296875,
-        "y": 992.9998779296875
+        "x": -1609.0,
+        "y": 993.0
     }
 }
 
