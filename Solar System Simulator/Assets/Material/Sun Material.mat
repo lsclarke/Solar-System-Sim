@@ -47,7 +47,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Contrast: 31.81
-    - _Fresnel_Strength: 3.21
+    - _Fresnel_Strength: 0.56
     - _Noise_Speed: -0.17
     - _QueueControl: 0
     - _QueueOffset: 0
