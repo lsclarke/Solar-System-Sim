@@ -3,9 +3,8 @@ using UnityEngine;
 public class SolarSystem : MonoBehaviour
 {
 
-    public float G = 0f;
+    public long G = 0;
     public CelestialBody[] bodies;
-
 
     private void Start()
     {
@@ -17,7 +16,6 @@ public class SolarSystem : MonoBehaviour
     {
         Gravity();
     }
-
 
     public bool isGreater(CelestialBody body1, CelestialBody body2)
     {

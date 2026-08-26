@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Nova.SolarSystem
 {
-    public class Saturn : CelestialBody
+    public class Uranus : CelestialBody
     {
         [SerializeField]
         private Earth earth;
