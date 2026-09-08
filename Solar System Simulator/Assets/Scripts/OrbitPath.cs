@@ -5,7 +5,7 @@ namespace Nova.SolarSystem
 {
     public class OrbitPath : MonoBehaviour
     {
-        public CelestialBody planet;
+        public GameObject planet;
         private SplineContainer splineOrbitPath;
 
         [Range(0, 1)]
@@ -33,12 +33,7 @@ namespace Nova.SolarSystem
             
             var newPostion = splineOrbitPath.EvaluatePosition(t);
 
-            planet.gameObject.transform.position = newPostion;
-
-
-
-
-
+            planet.transform.position = newPostion;
         }
     }
 }
