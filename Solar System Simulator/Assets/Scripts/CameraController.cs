@@ -7,7 +7,7 @@ namespace Nova.SolarSystem
     {
        [SerializeField] private CelestialBody planetObject;
 
-        // Update is called once per frame
+        //Every frame focus on the LookAt target.
         void Update()
         {
             transform.LookAt(planetObject.transform);

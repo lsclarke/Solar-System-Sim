@@ -7,7 +7,7 @@ namespace Nova.SolarSystem
         [SerializeField]
         private float rotationSpeed;
 
-        // Update is called once per frame
+        //Rotate the ring every frame at the value of the rotationSpeed variable
         void Update()
         {
             transform.Rotate(Vector3.up * rotationSpeed * Time.deltaTime);
