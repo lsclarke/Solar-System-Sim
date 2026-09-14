@@ -26,12 +26,13 @@ namespace Nova.SolarSystem
         string url;
         string hdurl;
         string media_type;
+        public string thumbnail_url;
         string explanation;
 
         //When simulator begins start the Request API process
         void Start()
         {
-            StartCoroutine(RequestAPIData());
+         //   StartCoroutine(RequestAPIData());
         }
 
         #region API Request Func
@@ -76,6 +77,7 @@ namespace Nova.SolarSystem
                     title = (string)responseArray[0]["title"];
                     url = (string)responseArray[0]["url"];
                     hdurl = (string)responseArray[0]["hdurl"];
+                    thumbnail_url = (string)responseArray[0]["thumbnail_url"];
                     media_type = (string)responseArray[0]["media_type"];
                     explanation = (string)responseArray[0]["explanation"];
 
@@ -114,6 +116,7 @@ namespace Nova.SolarSystem
             public string url;
             public string hdurl;
             public string media_type;
+            public string thumbnail_url;
             public string explanation;
 
         }

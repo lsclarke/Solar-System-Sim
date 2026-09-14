@@ -20,6 +20,10 @@ namespace Nova.SolarSystem
 
         public RawImage image;
 
+        private void Start()
+        {
+            StartCoroutine(playVideo());
+        }
 
         public IEnumerator playVideo()
         {
@@ -28,7 +32,7 @@ namespace Nova.SolarSystem
 
             //Play video from the video clip not the url
             videoPlayer.source = VideoSource.Url;
-            videoPlayer.url = requestAPI.API_URL();
+            videoPlayer.url = "https://youtu.be/T0s-043iDEk"; /*requestAPI.API_URL();*/
 
             videoPlayer.Prepare();
 
