@@ -60,7 +60,7 @@ public class SolarSystem : MonoBehaviour
 
     /// <summary>
     /// Applies Keplers law of Orbital Velocity Formula by using a nested foreach loop that runs through all elements in the list and compares it to another element within the secon list.
-    /// The function then checks if body1 (M1) is equal to body2 (M2) which is not true. Since it is not true the funtion will then go to the next set of code and create a orbitalVelocity variable.
+    /// The function then checks if body1 (M1) is equal to body2 (M2) which is not true. Since it is not true the function will then go to the next set of code and create a orbitalVelocity variable.
     /// The object with the greater mass body1 (M1) will look at body (M2). This will keep the object's forward direction to constantly face the object. 
     /// Body1 (M1) will add the orbitalVelocity multiplied by the transform.right direction. This will cause it to move in a more arc/circular motion.
     /// </summary>
