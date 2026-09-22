@@ -20,7 +20,11 @@
 <br>
  Kepler’s orbital velocity formula is implemented using nested foreach loops that compare each celestial body against every other body. The function ensures body1 (M1) and body2 (M2) are not the same object before calculating orbital velocity. The more massive body uses M2 as the reference point, continuously facing it while applying the calculated orbital velocity along its transform.right direction. This tangential force causes the object to move in an arc or circular orbit around the other body, with M2’s mass contributing to the orbital velocity calculation.</p>
 <br>
+<h3><b>Technical Art</b></h3>
+<p dir="auto">I designed a planetary shader that displays the planet's base image and height map to give the sphere body depth. I also create an atmosphere shader using the fresnel node to help assist in creating the effect of an atmosphere. This was helpful in displaying a close to similar replica of the planet models.
 
+  <iframe width="1337" height="752" src="https://www.youtube.com/embed/QTVQo5_xOwk" title="Solar System Simulator WIP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br>
 
 
 
