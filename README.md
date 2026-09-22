@@ -14,6 +14,10 @@
 <br>
 <h3><b>Design</b></h3>
 <p dir="auto">The project design is a replica of our solar system with all planets in orbit order. I also designed custom shaders and gathered textures from solarsystemscope.com to make the planets look somewhat similar to their real counterparts. I also used an outside space skybox to help create a more space aesthetic for the scene of the project. Splines were placed around the project to help assist viewers in getting a better look at each individual planet and our sun, so it would be easier to view and read any topics and information on the planets.</p>
+<img width="800" height="450" alt="Solar System Model" src="https://github.com/user-attachments/assets/92e1c49a-803f-4d1b-97cb-6f7d89b0b1c7" />
+
+
+
 <br>
 <h3><b>Development</b></h3>
 <p dir="auto">The solar system is designed to calculate all the GameObjects in the scene that derive from the CelestialBody.cs class into an array list. This was necessary for the calculations because the script runs the array list within a nested foreach loop and determines whichever gameObjects has the higher mass (M1) between two bodies; based on that, the body with the lower mass (M2) will move towards the body with the higher mass (M1).
@@ -22,9 +26,12 @@
 <br>
 <h3><b>Technical Art</b></h3>
 <p dir="auto">I designed a planetary shader that displays the planet's base image and height map to give the sphere body depth. I also create an atmosphere shader using the fresnel node to help assist in creating the effect of an atmosphere. This was helpful in displaying a close to similar replica of the planet models.
-<video controls width="250">
-  <source src="/shared-assets/videos/flower.webm" type="video/webm" /> </video>
-  <iframe width="1337" height="752" src="https://www.youtube.com/embed/QTVQo5_xOwk" title="Solar System Simulator WIP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ 
+<img width="800" height="450" alt="Earth_and_Sun_Motion" src="https://github.com/user-attachments/assets/ea4ecf2b-9835-4ff5-b112-ca2787c0f72c" />
+
+
+
+
 <br>
 
 
