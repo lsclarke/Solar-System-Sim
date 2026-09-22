@@ -8,7 +8,8 @@
 
 <h2 align="center" dir="auto"> Overview </h2>
 <h2 align="center" dir="auto"><strong>Genre: <code>Simulation</code></strong></h2>
-<p dir="auto">This is a 3D simulation project I created in Unity. I wanted to create something that would actually be a bit more challenging for me and be a bit outside the norm of what I usually work on in Unity. This Solar System Simulator simulates real-world gravitational physics using Unity's physics. Demonstrating Newton and Kepler’s laws in a 3D simulation.</p>
+<p dir="auto">This Solar System Simulator project simulates real-world gravitational physics using Unity's physics. It demonstrates Newton and Kepler’s laws in a 3D simulation. The project was developed in Unity and uses NASA's APOD API (Astronomy Picture of the Day) to display photos taken in real-time each day.
+</p>
 
 
 
