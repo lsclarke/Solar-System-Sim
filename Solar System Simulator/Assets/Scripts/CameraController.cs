@@ -20,6 +20,13 @@ namespace Nova.SolarSystem
             originalZoom = cam.fieldOfView;
         }
 
+        public void SetCameraViewObject(CelestialBody value)
+        {
+            planetObject = value; 
+        }
+
+
+
         //Every frame focus on the LookAt target.
         void Update()
         {

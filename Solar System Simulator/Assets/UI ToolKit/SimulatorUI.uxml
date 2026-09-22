@@ -1,11 +1,10 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <ui:VisualElement name="SolarSystem_UI_Element" style="flex-grow: 1; width: 100%; height: 100%;">
-        <ui:VisualElement name="Container" style="flex-grow: 1; width: 100%; height: 100%;">
-            <ui:VisualElement name="Time_Date_Content" style="flex-grow: 1; background-size: 25% 25%; background-position-x: center; width: 20%; -unity-background-scale-mode: stretch-to-fill; height: 25%;">
-                <ui:GroupBox name="GroupBox" style="width: 100%; height: 100%; opacity: 1; -unity-text-align: upper-center;">
-                    <ui:Label text="Time" name="Time_Label" style="-unity-font-style: bold; font-size: 50px; color: rgb(255, 255, 255);"/>
-                    <ui:Label text="Date" name="Date_Label" style="-unity-font-style: bold; font-size: 50px; color: rgb(255, 255, 255);"/>
-                </ui:GroupBox>
+        <ui:VisualElement name="Container" style="flex-grow: 1; width: 100%; height: 100%; background-color: rgba(255, 0, 0, 0.29); align-items: center; align-self: center;">
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(64, 88, 106, 0.44); background-size: 100% 100%; -unity-background-scale-mode: stretch-to-fill; background-position-x: center; background-position-y: center; width: 98%; height: 130px; aspect-ratio: auto; flex-direction: column; justify-content: center; align-items: center; align-self: center;">
+                <ui:VisualElement style="flex-grow: 1; background-color: rgba(125, 185, 165, 0.44); background-size: 100% 8%; -unity-background-scale-mode: stretch-to-fill; background-position-x: center; background-position-y: center; width: 98%; height: 130px; aspect-ratio: auto; flex-direction: column; justify-content: center; align-items: center; align-self: center;"/>
+                <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 255, 170, 0.44); background-size: 100% 70%; -unity-background-scale-mode: stretch-to-fill; background-position-x: center; background-position-y: center; width: 98%; height: 130px; aspect-ratio: auto; flex-direction: column; justify-content: center; align-items: center; align-self: center;"/>
+                <ui:VisualElement style="flex-grow: 1; background-color: rgba(255, 133, 0, 0.44); background-size: 100% 6%; -unity-background-scale-mode: stretch-to-fill; background-position-x: center; background-position-y: center; width: 98%; height: 130px; aspect-ratio: auto; flex-direction: column; justify-content: center; align-items: center; align-self: center;"/>
             </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>
