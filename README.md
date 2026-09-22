@@ -83,6 +83,7 @@
 <p dir="auto">I designed a planetary shader that displays the planet's base image and height map to give the sphere body depth. I also create an atmosphere shader using the fresnel node to help assist in creating the effect of an atmosphere. This was helpful in displaying a close to similar replica of the planet models.
  <br>
   
+Shader Material Time-lapse: [https://youtu.be/Q6FuDVtrD1M](https://www.youtube.com/watch?v=Q6FuDVtrD1M)
 <img width="800" height="450" alt="Earth_and_Sun_Motion" src="https://github.com/user-attachments/assets/ea4ecf2b-9835-4ff5-b112-ca2787c0f72c" />
 
 
