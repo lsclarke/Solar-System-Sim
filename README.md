@@ -50,6 +50,35 @@
   </code></pre>
  Kepler’s orbital velocity formula is implemented using nested foreach loops that compare each celestial body against every other body. The function ensures body1 (M1) and body2 (M2) are not the same object before calculating orbital velocity. The more massive body uses M2 as the reference point, continuously facing it while applying the calculated orbital velocity along its transform.right direction. This tangential force causes the object to move in an arc or circular orbit around the other body, with M2’s mass contributing to the orbital velocity calculation.</p>
 <br>
+
+  <pre><code>
+    private void OrbitalVelocity()
+    {
+        foreach (CelestialBody body1 in bodies)
+        {
+            foreach (CelestialBody body2 in bodies)
+            {
+                if (!body1.Equals(body2))
+                {
+                    float m2 = body2.mass;
+
+                    //Distance
+                    float r = Vector3.Distance(body1.transform.position, body2.transform.position);
+
+                    body1.transform.LookAt(body2.transform);
+
+                    //Orbital Velocity Formula
+                    float orbitalVelocity = Mathf.Sqrt((G * m2) / r);
+
+                    body1.GetComponent<Rigidbody>().linearVelocity += body1.transform.right * orbitalVelocity;
+                }
+
+            }
+        }
+    }
+    
+  </code></pre>
+
 <h3><b>Technical Art</b></h3>
 <p dir="auto">I designed a planetary shader that displays the planet's base image and height map to give the sphere body depth. I also create an atmosphere shader using the fresnel node to help assist in creating the effect of an atmosphere. This was helpful in displaying a close to similar replica of the planet models.
  <br>
