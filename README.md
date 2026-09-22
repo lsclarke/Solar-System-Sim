@@ -22,7 +22,8 @@
 <br>
 <h3><b>Technical Art</b></h3>
 <p dir="auto">I designed a planetary shader that displays the planet's base image and height map to give the sphere body depth. I also create an atmosphere shader using the fresnel node to help assist in creating the effect of an atmosphere. This was helpful in displaying a close to similar replica of the planet models.
-
+<video controls width="250">
+  <source src="/shared-assets/videos/flower.webm" type="video/webm" /> </video>
   <iframe width="1337" height="752" src="https://www.youtube.com/embed/QTVQo5_xOwk" title="Solar System Simulator WIP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br>
 
