@@ -22,6 +22,32 @@
 <h3><b>Development</b></h3>
 <p dir="auto">The solar system is designed to calculate all the GameObjects in the scene that derive from the CelestialBody.cs class into an array list. This was necessary for the calculations because the script runs the array list within a nested foreach loop and determines whichever gameObjects has the higher mass (M1) between two bodies; based on that, the body with the lower mass (M2) will move towards the body with the higher mass (M1).
 <br>
+  <pre><code>
+    private void Gravity()
+    {
+        foreach (CelestialBody body1 in bodies)
+        {
+            foreach (CelestialBody body2 in bodies)
+            {
+                if (!body1.Equals(body2))
+                {
+                    float m1 = body1.mass;
+                    float m2 = body2.mass;
+
+                    float r = Vector3.Distance(body1.transform.position, body2.transform.position);
+
+
+                    float UniversalGravitation = (G * (m1 * m2) / (r * r));
+
+                    body1.GetComponent<Rigidbody>().AddForce((body2.transform.position - body1.transform.position).normalized * UniversalGravitation);
+
+                }
+
+            }
+        }
+    }
+    
+  </code></pre>
  Kepler’s orbital velocity formula is implemented using nested foreach loops that compare each celestial body against every other body. The function ensures body1 (M1) and body2 (M2) are not the same object before calculating orbital velocity. The more massive body uses M2 as the reference point, continuously facing it while applying the calculated orbital velocity along its transform.right direction. This tangential force causes the object to move in an arc or circular orbit around the other body, with M2’s mass contributing to the orbital velocity calculation.</p>
 <br>
 <h3><b>Technical Art</b></h3>
